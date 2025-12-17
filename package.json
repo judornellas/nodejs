@@ -12,3 +12,19 @@
     "start": "node app.js"
   }
 }
+{
+  "name": "chatgpt-backend",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "cors": "^2.8.5"
+  }
+}
